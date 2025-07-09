@@ -44,7 +44,10 @@ jobs:
         
       - name: Install dependencies
         run: pip install undetected-chromedriver selenium chromedriver_autoinstaller pyautogui fake-useragent
-
+      
+      - name: Run StreamHGscript
+        run: python main.py
+      
       - name: Run Selenium script
         run: python main_combined.py
         
