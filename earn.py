@@ -111,8 +111,8 @@ def run_earn_parallel():
         print(f"Failed to load link list: {e}")
         return
 
-    num_processes = 4
-    selected_links = random.sample(link_list, num_processes)
+    #num_processes = 4
+    #selected_links = random.sample(link_list, num_processes)
 
     processes = []
     for link in selected_links:
